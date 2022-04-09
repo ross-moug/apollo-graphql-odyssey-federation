@@ -1,7 +1,8 @@
 {
     "extends": [
         "@trevorblades/eslint-config/react",
-        "plugin:jsx-a11y/recommended"
+        "plugin:jsx-a11y/recommended",
+        "plugin:prettier/recommended"
     ],
     "rules": {
         "react/react-in-jsx-scope": "off",
